@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(194, 194, 194); color:rgb(19, 18, 18)
+}
+.titulo-1 {
+  padding-left: 30px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  width: 60%;
+  
+}
+h2 {
+  text-align: center; 
+}   
+#body {
+  background-color: darkgrey;
+}
+#ashes {
+   color:darkred; font-size: 26px; text-align: center
+}
+.itens {
+  font-style: italic;
+  font-size: 22px;
+}
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-right: 10%;
+}
+#game {
+  width: 20%;
+}

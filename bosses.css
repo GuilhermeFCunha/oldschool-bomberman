@@ -1,0 +1,26 @@
+header {
+    background-color:rgb(194, 194, 194);
+}
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.img {
+    width: 15%;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
