@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>WHERE TO BUY/RENT</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <header>
+        <div class="box">
+            <h1><img class="img" src="images/five.jpg" alt="Bomber Great and the Four Bomber Kings"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bosses.html">Bosses</a></li>
+                    <li><a href="buy.html">Where to buy/rent</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+          <fieldset>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="input-1" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-1"required placeholder="yourname@email.com">
+
+            <label for="tele">Telephone</label>
+            <input type="tel" id="tele" class="input-1" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="msg">Message</label>
+            <textarea rows="7" id="msg" class="input-1" required></textarea>
+          </fieldset>
+          <fieldset>
+              <legend>Where do you like to receive your answers?</legend>  
+              <label for="zip"><input type="radio" name="select" value="zip" id="zip" checked>Zip Code/Address</label>
+              
+
+              <label for="fax"><input type="radio" name="select" value="fax" id="fax">Telephone/Fax</label>
+              
+
+              <label for="r-email"><input type="radio" name="select" value="email" id="r-email">Email</label>
+              
+
+              <label class="chkbx"><input type="checkbox" checked>Do you like to receive the news in your mail?</label>
+          </fieldset> 
+          <fieldset>
+            <legend>Would you like to rent or buy?</legend>
+            <select>
+              <option>Rent 1 Week</option>
+              <option>Rent 2 Week</option>
+              <option>Rent 3+ Week</option>
+              <option>Buy</option>
+            </select>
+          </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <img id="bomb" src="images/bomb.jpg">
+        <p class="cp">&copy; Sure Not Copyrighted - 2023</p>
+      </footer>
+    </body>
+  </html>

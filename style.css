@@ -1,36 +1,98 @@
-body {
-    background-color:rgb(194, 194, 194); color:rgb(19, 18, 18)
+header {
+    background-color:rgb(194, 194, 194);
 }
-.titulo-1 {
-  padding-left: 30px;
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 .img {
-  display: flex;
-  justify-content: center;
+    width: 15%;
 }
-#logo {
-  width: 60%;
-  
+.img-1 {
+    border: 2px solid black;
+    border-radius: 10px;
 }
-h2 {
-  text-align: center; 
-}   
-#body {
-  background-color: darkgrey;
+.img-1:hover {
+    border-color: cornflowerblue;
 }
-#ashes {
-   color:darkred; font-size: 26px; text-align: center
+.img-1:active{
+    border-color: blue;
 }
-.itens {
-  font-style: italic;
-  font-size: 22px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  margin-right: 10%;
+nav li {
+    display: inline;
+    margin-left: 15px;
 }
-#game {
-  width: 20%;
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoraion: none;
+}
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.bosses {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.bosses li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.bosses li:hover h2 {
+    font-size: 35px;
+
+}
+.bosses h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.power {
+    font-size: 20px
+}
+footer {
+    text-align: center;
+    background: url(images/bg.jpg);
+}
+#bomb {
+    width: 10%;
+}
+.cp {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-1 {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+}
+.chkbx {
+    margin: 20px 0;
 }
