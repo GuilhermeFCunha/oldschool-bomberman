@@ -1,3 +1,8 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
 header {
     background-color:rgb(194, 194, 194);
 }
@@ -32,7 +37,7 @@ nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    text-decoraion: none;
+    text-decoration: none;
 }
 nav a:hover {
     color: blue;
@@ -75,10 +80,6 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 form {
     margin: 40px 0;
 }
@@ -93,6 +94,106 @@ form label, legend {
     padding: 10px 25px;
     width: 40%;
 }
+select {
+    margin: 15px 0;
+}
 .chkbx {
     margin: 20px 0;
+}
+.submit {
+    width: 30%;
+    padding: 10px 0;
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.submit:hover {
+    background: black;
+    transform: scale(1.1);    
+}
+table {
+    margin: 40px 20px;
+}
+thead {
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid;
+    padding: 7px 15px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+}
+.titulo-2 {
+    font-size: 2em;
+    margin: 0 33% 2em;
+}
+.body p {
+    margin: 0 0 1em;
+}
+.body strong {
+    font-weight: bold;
+}
+.ashes {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;    
+    font-style: italic;
+    color: darkred;
+    clear: both;
+}
+.icon {
+    width: 120px;
+    float: left;
+    margin-left: 20%;
+}
+.map {
+    padding: 3em;
+}
+.map p {
+    margin: 0 0 2em;
+}
+.video {
+    width: 560px;
+    margin: 1em auto 0;
+}
+.game {
+   width: 40%;
+}
+.benefits {      
+    background: #888888;
+}
+.benefits-cont {
+    width: 640px;
+    margin:0 auto;
+}
+.list {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.text-1 {
+    font-size: 1.2em;
+    width: 940px;
+    margin:0 auto;    
 }
